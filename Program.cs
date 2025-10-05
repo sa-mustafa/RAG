@@ -36,7 +36,7 @@ namespace rag
             {
                 Endpoint = ollamaUri,
                 TextModel = new OllamaModelConfig(textModel, 128 * 1024),
-                EmbeddingModel = new OllamaModelConfig(embedModel, 2 * 1024)
+                EmbeddingModel = new OllamaModelConfig(embedModel, 8 * 1024)
             };
 
             var chunking = new TextPartitioningOptions
