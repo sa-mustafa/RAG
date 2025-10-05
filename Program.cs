@@ -29,8 +29,8 @@ namespace rag
             //var textModel = "llama3.1:latest";   // generator, 128K
             //var embedModel = "nomic-embed-text:latest";    // embedder, 2K
             // Right
-            //var textModel = "llama3.1:latest";   // generator, 128K
-            //var embedModel = "bge-m3:latest";    // embedder, 8K
+            var textModel = "llama3.1:latest";   // generator, 128K
+            var embedModel = "bge-m3:latest";    // embedder, 8K
 
             var config = new OllamaConfig
             {
